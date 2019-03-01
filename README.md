@@ -1,5 +1,5 @@
 # What_Should_I_Eat_Today
-personal project with Kakao map API and react.js
+Make an array of your favorite restaurants and it will randomly pick one.
 
 
 
@@ -29,4 +29,5 @@ people waste too much time on picking lunch or dinner
 
 
 ## Features
-What makes your project stand out?
+* Your fav res array will be saved
+* Statics approach is on Development
