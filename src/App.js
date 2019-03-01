@@ -1,13 +1,13 @@
 
 import React, { Component } from 'react';
 import './App.css';
-import Map from './map';
+import Maps from './map';
 
 class App extends Component {
                                                   
   render() {
     return (
-      <Map/>
+      <Maps/>
     );
   }
 }
