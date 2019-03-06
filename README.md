@@ -9,7 +9,7 @@ Make an array of your favorite restaurants and it will randomly pick one.
 
 
 ## Motivation
-people waste too much time on picking lunch or dinner
+people waste too much time on picking what to eat for lunch or dinner
 
 
 
