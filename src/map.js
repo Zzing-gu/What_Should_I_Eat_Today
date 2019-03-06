@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import Card from './card'
+
 
 
 const infowindow = new daum.maps.InfoWindow({zIndex:1});
@@ -104,7 +104,7 @@ class Map extends Component {
         <button id="randomBtn" type="button" onClick={this.pickRandom}>뽑기</button>
         <div>{JSON.parse(window.localStorage.getItem('shitArr')).places[0].place_name}</div>
       </div>
-      <Card style={{width:100,margin: 'auto'}}  />
+      
     </div>
     );
   }

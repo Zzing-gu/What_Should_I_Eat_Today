@@ -1,13 +1,21 @@
 
 import React, { Component } from 'react';
 import './App.css';
-import Maps from './map';
+
+import NewMaps from './components/newmap';
+import FavResCards from './components/favResCards';
+import Navbar from './components/navbar'
 
 class App extends Component {
                                                   
   render() {
     return (
-      <Maps/>
+      <div>
+        <Navbar/>
+        <NewMaps/>
+        <FavResCards/>
+      </div>
+      
     );
   }
 }
